@@ -58,7 +58,7 @@ Vagrant.configure(2) do |config|
     wget -q http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
     tar -xvf install-tl-unx.tar.gz
     cd install-tl-*
-    echo "1" | sudo ./install-tl
+    echo "i" | sudo ./install-tl
     export PATH=/usr/local/texlive/2014/bin/x86_64-linux:$PATH
 
   SHELL
